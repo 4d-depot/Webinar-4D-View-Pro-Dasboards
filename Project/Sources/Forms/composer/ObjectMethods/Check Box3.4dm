@@ -1,0 +1,1 @@
+vpSetScrollbar ("ViewProArea";Form:C1466.horScrollbar;Form:C1466.verScrollbar)

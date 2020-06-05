@@ -1,0 +1,392 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onTimer"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"ViewProArea": {
+					"type": "view",
+					"top": 20,
+					"left": 20,
+					"width": 1113,
+					"height": 708,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "object",
+					"method": "ObjectMethods/ViewProArea.4dm",
+					"userInterface": "ribbon",
+					"events": [
+						"onVPReady",
+						"onAfterEdit"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 20,
+					"left": 1151,
+					"width": 103,
+					"height": 34,
+					"sizingX": "move",
+					"text": "Export",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box": {
+					"type": "checkbox",
+					"top": 179,
+					"left": 1151,
+					"width": 103,
+					"height": 21,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.rowHeader",
+					"text": "Row Header",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Check Box.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"top": 205,
+					"left": 1151,
+					"width": 103,
+					"height": 21,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.columnHeader",
+					"text": "Col Header",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Check Box1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 94,
+					"left": 1200,
+					"width": 52,
+					"height": 15,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.rowCount",
+					"dataSourceTypeHint": "number",
+					"class": "default",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/Variable.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 126,
+					"left": 1200,
+					"width": 52,
+					"height": 15,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.columnCount",
+					"dataSourceTypeHint": "number",
+					"class": "default",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 96,
+					"left": 1153,
+					"width": 37,
+					"height": 15,
+					"sizingX": "move",
+					"class": "default",
+					"text": "Row"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 126,
+					"left": 1153,
+					"width": 37,
+					"height": 15,
+					"sizingX": "move",
+					"class": "default",
+					"text": "Col"
+				},
+				"Line": {
+					"type": "line",
+					"top": 73,
+					"left": 1152,
+					"width": 102,
+					"sizingX": "move"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 163,
+					"left": 1152,
+					"width": 102,
+					"sizingX": "move"
+				},
+				"Check Box2": {
+					"type": "checkbox",
+					"top": 259,
+					"left": 1149,
+					"width": 103,
+					"height": 21,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.tabStrip",
+					"text": "Tab Strip",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Check Box2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Popup Dropdown List": {
+					"type": "dropdown",
+					"top": 317,
+					"left": 1191,
+					"width": 63,
+					"height": 23,
+					"sizingX": "move",
+					"dataSource": "zoom_at",
+					"focusable": false,
+					"choiceList": [
+						"200%",
+						"150%",
+						"100%",
+						"75%",
+						"50%",
+						"25%"
+					],
+					"class": "default",
+					"method": "ObjectMethods/Popup Dropdown List.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Line2": {
+					"type": "line",
+					"top": 241,
+					"left": 1152,
+					"width": 102,
+					"sizingX": "move"
+				},
+				"Line3": {
+					"type": "line",
+					"top": 296,
+					"left": 1152,
+					"width": 102,
+					"sizingX": "move"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 321,
+					"left": 1153,
+					"width": 37,
+					"height": 15,
+					"sizingX": "move",
+					"class": "default",
+					"text": "Zoom"
+				},
+				"Line4": {
+					"type": "line",
+					"top": 357,
+					"left": 1152,
+					"width": 102,
+					"sizingX": "move"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 436,
+					"left": 1152,
+					"width": 102,
+					"sizingX": "move"
+				},
+				"Check Box4": {
+					"type": "checkbox",
+					"top": 374,
+					"left": 1151,
+					"width": 103,
+					"height": 21,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.horGridlines",
+					"text": "Hor Gridlines",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Check Box4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box5": {
+					"type": "checkbox",
+					"top": 400,
+					"left": 1151,
+					"width": 103,
+					"height": 21,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.verGridlines",
+					"text": "Ver Gridline",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Check Box5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line6": {
+					"type": "line",
+					"top": 514,
+					"left": 1152,
+					"width": 102,
+					"sizingX": "move"
+				},
+				"Check Box3": {
+					"type": "checkbox",
+					"top": 452,
+					"left": 1151,
+					"width": 103,
+					"height": 21,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.horScrollbar",
+					"text": "Hor Scrollbar",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Check Box3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box6": {
+					"type": "checkbox",
+					"top": 478,
+					"left": 1151,
+					"width": 103,
+					"height": 21,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.verScrollbar",
+					"text": "Ver Scrollbar",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Check Box6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 528,
+					"left": 1149,
+					"width": 103,
+					"height": 34,
+					"sizingX": "move",
+					"text": "Load",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 576,
+					"left": 1147,
+					"width": 103,
+					"height": 34,
+					"sizingX": "move",
+					"text": "Set",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box7": {
+					"type": "checkbox",
+					"top": 625,
+					"left": 1152,
+					"width": 100,
+					"height": 23,
+					"sizingX": "move",
+					"text": "Auto update",
+					"fontFamily": "Helvetica Neue",
+					"fontSize": 12,
+					"focusable": false,
+					"method": "ObjectMethods/Check Box7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 657,
+					"left": 1147,
+					"width": 103,
+					"height": 26,
+					"sizingX": "move",
+					"text": "Insert Chart",
+					"fontFamily": "Helvetica Neue",
+					"fontSize": 12,
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box8": {
+					"type": "checkbox",
+					"top": 706,
+					"left": 1145,
+					"width": 108,
+					"height": 21,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.lockState",
+					"text": "Lock Rows (R3)",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Check Box8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line7": {
+					"type": "line",
+					"top": 694,
+					"left": 1152,
+					"width": 102,
+					"sizingX": "move"
+				}
+			}
+		}
+	]
+}

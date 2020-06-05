@@ -1,0 +1,1 @@
+vpSetActiveSheetHeaderVisible ("ViewProArea";Form:C1466.rowHeader;Form:C1466.columnHeader)

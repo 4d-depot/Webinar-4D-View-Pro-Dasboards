@@ -1,0 +1,1 @@
+vpSetTabStripVisible ("ViewProArea";Form:C1466.tabStrip)

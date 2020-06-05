@@ -1,0 +1,43 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 10,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onTimer"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"ViewProArea": {
+					"type": "view",
+					"top": 10,
+					"left": 10,
+					"width": 1061,
+					"height": 412,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "object",
+					"method": "ObjectMethods/ViewProArea.4dm",
+					"events": [
+						"onVPReady",
+						"onAfterEdit"
+					]
+				}
+			}
+		}
+	]
+}

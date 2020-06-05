@@ -1,0 +1,62 @@
+﻿{
+	"(Default Forms)": {},
+	"(Default Project Methods)": {},
+	"(Default Tables)": {},
+	"Grid Lines": {
+		"methods": [
+			"vpGetActiveSheetGridLines",
+			"vpGetSheetGridLines",
+			"vpSetActiveSheetGridLines",
+			"vpSetSheetGridLines"
+		]
+	},
+	"Grid Size": {
+		"methods": [
+			"vpGetActiveSheetGrid",
+			"vpGetSheetGrid",
+			"vpSetActiveSheetGrid",
+			"vpSetSheetGrid"
+		]
+	},
+	"Header": {
+		"methods": [
+			"vpGetActiveSheetHeaderVisible",
+			"vpGetHeaderVisible",
+			"vpSetActiveSheetHeaderVisible",
+			"vpSetHeaderVisible"
+		]
+	},
+	"Scrollbar": {
+		"methods": [
+			"vpGetScrollbar",
+			"vpSetScrollbar"
+		]
+	},
+	"Sheet Name": {
+		"methods": [
+			"vpGetActiveSheetIndex",
+			"vpGetActiveSheetName"
+		]
+	},
+	"Tab Strip": {
+		"methods": [
+			"vpGetTabStripVisible",
+			"vpSetTabStripVisible"
+		]
+	},
+	"Zoom Level": {
+		"methods": [
+			"vpGetActiveSheetZoomLevel",
+			"vpGetZoomLevel",
+			"vpSetActiveSheetZoomLevel",
+			"vpSetZoomLevel"
+		]
+	},
+	"trash": {
+		"groups": [
+			"(Default Forms)",
+			"(Default Project Methods)",
+			"(Default Tables)"
+		]
+	}
+}

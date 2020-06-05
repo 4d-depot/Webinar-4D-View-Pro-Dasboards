@@ -1,0 +1,12 @@
+﻿{
+	"forms": {
+		"composer": {
+			"timeStamp": "2020-05-28T03:52:33.342Z",
+			"destination": "detailScreen"
+		},
+		"dashboard": {
+			"timeStamp": "2020-05-28T03:52:33.345Z",
+			"destination": "detailScreen"
+		}
+	}
+}

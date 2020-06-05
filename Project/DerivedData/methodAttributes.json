@@ -1,0 +1,82 @@
+﻿{
+	"methods": {
+		"vpSetSheetGrid": {
+			"timeStamp": "2020-05-28T03:52:33.296Z"
+		},
+		"findAccount": {
+			"timeStamp": "2020-05-28T03:52:33.307Z"
+		},
+		"vpGetActiveSheetName": {
+			"timeStamp": "2020-05-28T03:52:33.296Z"
+		},
+		"vpSetScrollbar": {
+			"timeStamp": "2020-05-28T03:52:33.306Z"
+		},
+		"vpGetSheetGridLines": {
+			"timeStamp": "2020-05-28T03:52:33.303Z"
+		},
+		"vpGetZoomLevel": {
+			"timeStamp": "2020-05-28T03:52:33.300Z"
+		},
+		"getEarningData": {
+			"timeStamp": "2020-05-28T03:52:33.307Z"
+		},
+		"vpSetSheetGridLines": {
+			"timeStamp": "2020-05-28T03:52:33.303Z"
+		},
+		"vpSetActiveSheetHeaderVisible": {
+			"timeStamp": "2020-05-28T03:52:33.298Z"
+		},
+		"vpGetActiveSheetHeaderVisible": {
+			"timeStamp": "2020-05-28T03:52:33.304Z"
+		},
+		"vpGetActiveSheetGrid": {
+			"timeStamp": "2020-05-28T03:52:33.301Z"
+		},
+		"vpSetLockState": {
+			"timeStamp": "2020-05-28T03:52:33.308Z"
+		},
+		"vpGetWorkbook": {
+			"timeStamp": "2020-05-28T03:52:33.307Z"
+		},
+		"vpSetTabStripVisible": {
+			"timeStamp": "2020-05-28T03:52:33.299Z"
+		},
+		"vpSetActiveSheetGrid": {
+			"timeStamp": "2020-05-28T03:52:33.297Z"
+		},
+		"vpGetScrollbar": {
+			"timeStamp": "2020-05-28T03:52:33.306Z"
+		},
+		"vpSetZoomLevel": {
+			"timeStamp": "2020-05-28T03:52:33.302Z"
+		},
+		"vpGetTabStripVisible": {
+			"timeStamp": "2020-05-28T03:52:33.299Z"
+		},
+		"vpGetActiveSheetZoomLevel": {
+			"timeStamp": "2020-05-28T03:52:33.305Z"
+		},
+		"vpSetActiveSheetGridLines": {
+			"timeStamp": "2020-05-28T03:52:33.303Z"
+		},
+		"vpGetActiveSheetIndex": {
+			"timeStamp": "2020-05-28T03:52:33.301Z"
+		},
+		"vpGetHeaderVisible": {
+			"timeStamp": "2020-05-28T03:52:33.300Z"
+		},
+		"vpGetActiveSheetGridLines": {
+			"timeStamp": "2020-05-28T03:52:33.302Z"
+		},
+		"vpSetActiveSheetZoomLevel": {
+			"timeStamp": "2020-05-28T03:52:33.305Z"
+		},
+		"vpSetHeaderVisible": {
+			"timeStamp": "2020-05-28T03:52:33.304Z"
+		},
+		"vpGetSheetGrid": {
+			"timeStamp": "2020-05-28T03:52:33.298Z"
+		}
+	}
+}
